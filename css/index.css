@@ -1,0 +1,117 @@
+main {
+    background-image: url(../img/bgindex.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: aliceblue;
+}
+.head1 h1{
+    text-align: center;
+    font-size: 130px;
+    /*  */
+}
+.head1 .openHour{
+    text-align: right;
+    line-height: 6px;
+    margin: 0 32px 0 auto;
+}
+h2{
+    text-align: center;
+    font-size: 90px;
+    margin:0 auto 20px auto;
+}
+/* tex-align : center===chỉnh chữ ra giữa dòng */
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    border-radius: 15px;
+    color: black;
+    background-color: white;
+    width: 140px;
+    margin: 20px auto 0 auto;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.button:hover {
+    color: white;
+    background-color: orangered;
+}
+#content1 {
+    border-radius: 10px;
+    background-color: #00629b;
+    margin-top: 640px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    padding: 25px;
+}
+#content1 p{
+    font-size: 25px;
+    margin:0 auto;
+    text-align: center;
+}
+/* #ex {
+    display: inline;
+}
+#animal-img {
+    width: 10px;
+} */
+#content2 {
+    border-radius: 10px;
+    background-color: #00629b;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    padding: 25px;
+}
+#content2 h4{
+    text-align: center;
+    font-size: 25px;
+}
+#content2 p{
+    text-align: center;
+    font-size: 25px;
+}
+#content3 {
+    border-radius: 10px;
+    background-color: #00629b;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+    padding: 25px;
+}
+#content3 p{
+    text-align: center;
+    font-size: 25px;
+}
+#event {
+    border-radius: 10px;
+    background-color: #00629b;
+    margin-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+    color: white;
+    padding: 25px;
+}
+#event p{
+    text-align: center;
+    font-size: 25px;
+}
+#event h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin: 10px auto 50px auto;
+    font-size: 30px;
+}
+h5{
+    font-size: 24px;
+}
+h3{
+    font-size: 39px;
+}
+

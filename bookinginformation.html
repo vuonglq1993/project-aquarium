@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Fjalla+One&family=Teko:wght@300..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style type="text/css">
+        body {
+            font-family: "Crimson Text", serif;
+            margin: 10px;
+            padding: 0;
+        }
+        .wrapper{
+            background-color: #00629b;
+        }
+        .top {
+            top: 0;
+            display: left;
+            flex-direction: column;
+            align-items: center;
+            background-color: black; 
+            padding: 20px;
+            border: 1px solid #d7d6d693;
+        }
+        .logo img {
+            max-width: 100%;
+            height: auto;
+        }
+        .banner {
+            font-weight: 70;
+            width: 100%;
+            display: left;
+            background-color: black;
+            font-size: 20px;
+            letter-spacing: 0.5px;
+            padding: 10px 0 10px 0;
+        }
+        .duong-link {
+            list-style: none;
+            padding: 10;
+            margin: 0px 0px 20px 0px;
+            display: flex;
+            gap: 10px;
+        }
+        .duong-link-con{
+            display: inline;
+        }
+        .duong-link-con a{
+            color: #c1c0c0;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .duong-link-con a:hover, .duong-link-con a.current{
+            color: #eeeeee;
+        }
+        .main {
+            padding: 20px;
+        }
+        h1{
+            display: block;
+            color: #ffffff;
+            margin: 20px auto 20px 60px;
+            font-size: 50px;
+        }
+        h2{
+            color: #002a54;
+            font-size: 50px;
+            margin: 40px auto 40px 180px;
+        }
+        #bookingForm{
+            margin: 10px 40px 10px 180px;
+        }
+        .formgroup {
+            display: flex;
+            align-items: center;
+            margin: 30px 0;
+        }
+        .formgroup label {
+            width: 150px;
+            margin-right: 10px;
+        }
+        .formgroup input {
+            width: 200px;
+            padding: 5px;
+            border: 1px solid #002a54;
+            border-radius: 5px;
+            font-family: "Crimson Text", serif ;
+        }
+        button[type="submit"] {
+          width: 120px;
+          padding: 15px;
+          font-family:"Crimson Text", serif;
+          font-size: 100%;
+          font-weight: bold;
+          border: 1px solid #00629b;
+          background-color: #00629b;
+          color: #ffffff;
+          margin: 20px 180px;
+        }
+        button[type="submit"]:hover{
+           border: 1px solid #e19211b6;
+           background-color: #ffffff;
+           color: #e19211b6;
+           transition: background-color 0.3s, color 0.3s;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="top">
+         <div class="logo">
+             <a href="./index.html"><img src="img/Logo.png" alt="logo" width="70px"/></a>
+         </div>
+         </div>
+         <div class="banner">
+             <ul class="duong-link">
+                 <li class="duong-link-con"><a href="./index.html" class="item">Home</a></li>
+                 |
+                 <li class="duong-link-con"><a href="./animals.html" class= "item">Animals</a></li>
+                 |
+                 <li class="duong-link-con"><a href="./about.html" class="item">About</a></li>
+                 |
+                 <li class="duong-link-con"><a href="./gallery.html" class="item">Gallery</a></li>
+                 |
+                 <li class="duong-link-con"><a href="#contact" class="item">Contact</a></li>
+                 |
+                 <li class="duong-link-con"><a href="./ticket.html" class="item on">Ticket</a></li>
+             </ul>
+         </div>
+         <h1><strong>Booking Information</strong></h1>
+         <br/>
+    </div>
+    <div>
+        <h2>Fill out your information</h2>
+    <form id="bookingForm" action="confirm-ticket.html" method="POST">
+        <div class="formgroup">
+        <label for="name">Full Name</label>
+        <input type="text" id="name" name="name" required>
+        <br>
+        </div>
+        <div class="formgroup">
+        <label for="address">Address</label>
+        <input type="text" id="address" name="address" required>
+        <br/>
+        </div>
+        <div class="formgroup">
+        <label for="email">Email Address </label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        </div>
+        <div class="formgroup">
+        <label for="phone">Phone Number</label>
+        <input type="tel" id="phone" name="phone" required pattern="[0-9]{10}">
+        <br>
+        </div>
+        <button type="submit">Book Now</button>
+    </form>
+    </div>
+    <hr>
+            <div id="contact" class="bottom">
+                <h4>Contact us:</h4>
+                Mail: nexusaquarium@gmail.com<br />
+                Phone: 19001000
+            </div>
+</body>
+</html>

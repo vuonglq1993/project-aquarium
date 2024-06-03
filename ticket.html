@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/header & footer.css" />
+    <link rel="stylesheet" href="./css/ticket-final.css" />
+    <title>Booking a ticket</title>
+</head>
+<body>
+    <div class="site">
+        <header>
+            <div class="top">
+                <a href="./index.html">
+                    <img src="img/happy dolphin.png" alt="logo" id="logo" />
+                </a>
+                <nav>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./index.html#event">Events</a></li>
+                        <li><a href="./animals.html">Animals</a></li>
+                        <li><a href="./about.html">About Us</a></li>
+                        <li><a href="./gallery.html">Gallery</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./Ticket.html" class="on">Ticket</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <div class="heading1">
+            <h1>Booking your ticket</h1>
+            </div>
+            <div class="item-box">
+                <div>
+                    <h2 class="1st">
+                        <span>Admission</span>
+                    </h2>
+                </div>
+                <p>
+                    <span>
+                        The ticket to the Aquarium includes the entrance fee
+                        and access to activities during operating hours.
+                    </span>
+                </p>
+                <p>
+                    <span>
+                        Visitors must present tickets for admission to the
+                        aquarium.
+                    </span>
+                </p>
+                <p>
+                    <span>Tickets are non-refundable.</span>
+                </p>
+            </div>
+            <div class="date-form">
+                <form id="booking-form">
+                    <label for="date"><h1><strong>Choose a date:</strong></h1></label
+                    >
+                    <input type="date" id="date" name="date" required />
+                </form>
+            </div>
+            <div class="information">
+                <h3>Add ticket to your cart</h3>
+                <div class="text">
+                    <p>All guests, including children four and under need a ticket.
+                    Tickets for children under four cannot be purchased alone.
+                    Children must be accompanied by an adult.</p>
+                </div>
+            </div>
+            <div>
+                <form action="confirm-ticket.html">
+                <ul class ="tick">
+                    <li class="item">
+                        <div class="pricetype">
+                            <h3>Adult</h3>
+                            <p>(ages from 18)</p>
+                        </div>
+                        <div class="priceinfo">
+                            <p>$25</p>
+                            <label>
+                                <input id="amount" type="number" value="0">
+                            </label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="item">
+                        <div class="pricetype">
+                            <h3>Youth</h3>
+                            <p>(ages 13-17)</p>
+                        </div>
+                        <div class="priceinfo">
+                            <p>$20</p>
+                            <label>
+                                <input type="number" id="amount" value="0">
+                            </label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="item">
+                        <div class="pricetype">
+                            <h3>Child</h3>
+                            <p>(ages 5-12)</p>
+                        </div>
+                        <div class="priceinfo">
+                        <p>$15</p>
+                        <label>
+                            <input id="amount" type="number" value="0">
+                        </label>
+                        </div>
+                    </li>
+                    <hr>
+                    <li class="item">
+                        <div class="pricetype">
+                            <h3>Four and Under</h3>
+                        </div>
+                        <div class="priceinfo">
+                            <p>Free</p>
+                            <label>
+                                <input id="amount" type="number" value="0">
+                            </label>
+                        </div>
+                    </li>
+                    <hr>
+                </ul>
+            </div>
+                <div class="fill-information">
+                    <h1>Please fill in the information</h1>
+                    <form id="bookingForm" action="cart2.html" method="POST">
+                        <div class="form-row">
+                            <div class="formgroup">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required />
+                                <br />
+                            </div>
+                            <div class="formgroup">
+                                <label for="address">Address</label>
+                                <input
+                                    type="text"
+                                    id="address"
+                                    name="address"
+                                    required
+                                />
+                                <br />
+                            </div>
+                            <div class="formgroup">
+                                <label for="email">Email Address </label>
+                                <input
+                                    type="email"
+                                    id="email"
+                                    name="email"
+                                    required
+                                />
+                                <br />
+                            </div>
+                        </div>
+                        <div class="addtocart">
+                            <button type="submit">
+                              Book now
+                            </button>
+                        </div>
+            </main>
+            <footer id="contact">
+                <div class="footer">
+                    <h4>Contact us</h4>
+                    <div class="logo2">
+                        <a href="./index.html">
+                            <img src="img/happy dolphin.png" alt="logo" id="logo2" />
+                        </a>
+                    </div>
+                    <p><a href="mailto:example-mail@gmail.com" class="info">E-mail: nexusaquarium@gmail.com</a></p>
+                    <p><a href="tel:19001000" class="info">Phone: 19001000</a></p>
+                </div>
+            </footer>
+        </div>
+</body>
+</html>

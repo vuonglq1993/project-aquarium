@@ -1,0 +1,212 @@
+.heading1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0em;
+    margin-block-end: 50px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: normal !important;
+    unicode-bidi: isolate;
+    padding: 0.5px 0px 0.5px 100px;
+    margin: auto;
+    background-color: #00629b ;
+    color: #fff;
+}
+.item-box {
+    margin-block-start: -30px;
+    margin-block-end: 100px;
+    margin-inline-start: 200px;
+    margin-inline-end: 200px;
+    background-color: #f5f5f5;
+    padding: 2.25rem 2.8125rem;
+    border: 1px solid #c8c8c8;
+    border-radius: 4px;
+    text-align: center;
+}
+.item-box h2 {
+    font-size: 36px;
+}
+.item-box p {
+    font-size: 24px;
+}
+.container {
+    display: flex;
+    max-width: auto;
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+#booking-form {
+    max-width: 400px;
+    margin: 0px auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+label {
+font-weight: bold;
+margin-bottom: 10%;
+color: #002a54;
+}
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.date-form{
+text-align: center;
+}
+.date-form::before {
+content: "";
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color: #002a5499; 
+z-index: -1;
+}
+
+.tick{
+    margin: 0px 20px 40px 60px;
+    padding: 0px 0px 5px 30px;
+}
+.item li{
+    margin-right: 100%;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0px;
+    padding: 10px;
+    border-radius: 8px;
+    color: black;
+    margin: 20px 10%;
+        }
+        .pricetype {
+            flex: 1;
+            margin-right: 10px;
+        }
+        .pricetype p {
+            font-size: 18px;
+            margin-top: 20px;
+        }
+
+        .priceinfo {
+            flex: 1;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-right: 100px;
+
+        }
+        .priceinfo p{
+            font-size: 18px;
+            margin-right: 100px;
+        }
+        hr{
+        border: 0.5px solid #eeeeee;
+        width: 75%; 
+        margin: 20px 10%;
+        }
+        
+        .addtocart{
+            text-align: right;
+            margin-right: 20%;
+            margin-bottom: 10%;
+        }
+        .label{
+            font-weight: bold;
+            margin-bottom: 10%;
+        }
+        input[type="number"] {
+        width: 30px;
+        padding: 7px; 
+        border: 1px solid #002a54; 
+        font-size: 16px;
+        text-align: center;
+        border-radius: 5px;
+        }
+        button[type="submit"] {
+            width: 120px;
+            padding: 15px;
+            font-size: 100%;
+            font-weight: bold;
+            border: 1px solid #00629b;
+            background-color: #00629b;
+            color: #ffffff;
+        }
+        button[type="submit"]:hover{
+            border: 1px solid #e19211b6;
+            background-color: #ffffff;
+            color: #e19211b6;
+            transition: background-color 0.3s, color 0.3s;;
+        }   
+.information{
+    margin: 40px 30px 40px 180px;
+    font-size: 18px;
+}
+.fill-information{
+background-color: #ffffff;
+}
+.fill-information h1{
+    margin: 40px 30px 40px 180px;
+margin-top: 0
+}
+.fill-information p{
+margin: 10px auto 20px 100px;
+}
+.form-row {
+    display: flex;
+    gap: 9px; 
+    justify-content: space-between; 
+}
+.formgroup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+.formgroup label {
+    margin-bottom: 5px;
+}
+.formgroup input {
+    padding: 15px;
+    border: 1px solid;  
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+label[for="name"]{
+    margin-left: 40%;
+}
+#address {
+    width: 100%; 
+}
+#name{
+    width: 60%;
+    margin-left: 40%;
+}
+#email {
+    width: 80%; 
+}
+button[type="submit"] {
+  width: 120px;
+  padding: 15px;
+  border: 1px solid #62b6f3;
+  background-color: #62b6f3;
+  color: #002c4c;
+  margin: 20px auto 20px 550px;
+}
+button[type="submit"]:hover{
+   border: 1px solid #fb6400;
+   background-color: #fb6400;
+   transition: background-color 0.3s, color 0.3s;
+}
